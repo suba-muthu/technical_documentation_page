@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     /* color: #4d4e53; */
     color: gray;
-    font-size: .90rem;
+    font-size: 1rem;
 }
 
 #main-doc {
@@ -16,26 +16,29 @@ body {
     width: 300px;
     height: 100%;
     border-right: solid;
-    top: 0;
-    left: 0; 
-    position: absolute;
+    top: 0px;
+    left: 0px;
+    position: fixed;
 }
 
 header {
     color: black;
     font-size: 30px;
+    margin: 10px;
 }
 
 #navbar > ul > li {
     padding: 15px;
     border-top: 1px solid black;
     list-style: none;
-    position: relative;
-    font-size: 1rem;
+    /* position: absolute; */
+    font-size: 17px;
 }
 
 #navbar > ul {
     padding: 0;
+    overflow-y: scroll;
+    height: 90%;
 }
 
 #navbar > header {
@@ -45,12 +48,12 @@ header {
 }
 
 p {
-    margin: 20px;
     line-height: 1.5rem;
+    margin-left: 10px;
 }
 
-#list-items > ul > li {
-    margin: 30px;
+div > ul > li {
+    margin: 15px;
     line-height: 1.5rem;
 }
 
